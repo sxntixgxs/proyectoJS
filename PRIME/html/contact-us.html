@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap">
+    <link rel="stylesheet" href="../css/style-3.css">
+</head>
+<nav id="inicio"><form action="https://music.youtube.com/search" method="get" target="_blank">
+    <input type="text" name="q" placeholder="Search your artist on Youtube Music 🔍">
+
+</form>
+    <ul>
+        <li><a href="index.html" class="line3">HOME</a></li>
+        <li><a href="team-prime.html" class="line3">TEAM PRIME</a></li>
+        <li><a href="kanye-article.html" class="line3">READ US</a></li>
+        <li><a href="contact-us.html" class="hidden actual">CONTACT US</a></li>
+        
+    </ul>
+</nav>
+    </section>
+    <section>
+        <form action="index.html" method="post">
+            <fieldset>
+                    <legend><span>Personal</span>Information</legend>
+                    <label for="name">Full Name:</label>
+                    <input type="text" name="name" id="name">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                    <label for="number">Phone numer:</label>
+                    <input type="text" name="number" id="number" pattern="\d{10}">
+                </fieldset>
+                <fieldset>
+                    <legend><span>Music</span>Information</legend>
+                    <label for="recordlabel">Current Record Label</label>
+                    <input type="text" name="recordlabel" id="recordlabel">
+                    <label for="topsong">Top Song [LINK]</label>
+                    <input type="url" name="topsong" id="topsong">
+                    <label for="musicname">Artist / Band name</label>
+                    <input type="text" name="musicname" id="musicname">
+                    <label for="ref">Press photos </label>
+                    <input type="file" name="ref" id="ref"accept=".png,.jpg,.gif"></input>
+                </fieldset>
+                <button type="submit"  value="Ver mensaje" onclick="alert('Information sent successfully')">SEND</button>
+        </form> 
+    </section>
+    <footer>
+        <a href="index.html" class="line">Go back</a>
+    </footer>
+</body>
+</html>
