@@ -3,6 +3,7 @@
 import { checkUsuario } from "./checkUsuario.js";
 import habilitarVotacion from "./habilitarVotacion.js"
 import { loginRechazo } from "./loginRechazo.js";
+import { loginApproved } from "./loginApproved.js"
 let boton = document.getElementById("sendLogin");
 boton.addEventListener("click",function(){
     console.log("Soy el boton send login")
@@ -13,6 +14,7 @@ boton.addEventListener("click",function(){
             if (user_check===true){
                 console.log("Estas registrado papa")
                 habilitarVotacion()
+                loginApproved()
             }else{
                 loginRechazo()
             }
