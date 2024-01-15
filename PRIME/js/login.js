@@ -10,7 +10,8 @@ boton.addEventListener("click",function(){
     let clave = document.getElementById("pass").value;
     checkUsuario(user,clave)
         .then(user_check=>{
-            if (user_check){
+            if (user_check===true){
+                console.log("Estas registrado papa")
                 habilitarVotacion()
             }else{
                 loginRechazo()
