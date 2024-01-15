@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap">
     <link rel="stylesheet" href="../css/style-4.css">
     <link rel="stylesheet" href="../css/style-4-modal.css">
+    <link rel="stylesheet" href="../css/style-4-login.css">
 </head>
 <body>
 
@@ -89,15 +90,16 @@
                 <input type="text" name="nickname" id="nickname">
                 <label for="pass">PASSWORD:</label>
                 <input type="password" name="pass" id="pass">
-                <button type="submit">SEND</button>
+                <button type="submit" id="sendLogin">SEND</button>
                 <a href="#">DON'T YOU HAVE AN ACCOUNT?</a>
+                <p style="visibility: hidden;" id="incorrectText">User or password incorrects.</p>
             </fieldset>
             <fieldset>
                 <legend><span>REGISTER</span></legend>
                 <label for="nickname">NICKNAME:</label>
                 <input type="text" name="nickname" id="nickname">
                 <label for="pass">PASSWORD:</label>
-                <input type="password" name="pass" id="pass">
+                <input type="password" name="pass" id="pass1">
                 <button class="send">SEND</button>
             </fieldset>
             <div class="vote" id="vote">
@@ -130,6 +132,7 @@
 </footer>
 <script src="../js/modal.js" type="module"></script>
 <script src="../js/charts.js"></script>
+<script src="../js/login.js" type="module"></script>
 </body>
 
 </html>

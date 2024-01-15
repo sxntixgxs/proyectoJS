@@ -1,4 +1,4 @@
-import escribir from "./generarModal.js"
+
 //modal cuando se preisone approaves
 const abreModal = document.getElementById("ap");
 const modal = document.querySelector('.modal');
@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded',function(){
     abreModal.addEventListener('click',e=>{
         e.preventDefault();
         console.log("SI ESTOY LEYENDO EL CLIC")
-        escribir()
+        // escribir()
         modal.style.visibility = "visible"
         modal.classList.add("modal--show")
     })
