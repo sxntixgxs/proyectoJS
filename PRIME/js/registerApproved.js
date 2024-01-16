@@ -4,5 +4,5 @@ export function registerApproved(){
     let register = document.getElementById("register_section");
     nick.classList.add("correctLogin");
     pass.classList.add("correctLogin");
-    setTimeout(()=>{loginApproved.style.visibility="hidden";loginApproved.style.display="none";},1000)
+    setTimeout(()=>{register.style.visibility="hidden";register.style.display="none";},1000)
 }
