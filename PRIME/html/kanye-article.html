@@ -84,18 +84,26 @@
     </aside>
     <div class="modal" style="visibility: hidden;" id="modal">
         <div class="modal-container">
-            <div class="modal__title"></div>
+            <div class="espacio"></div>
             <fieldset id="login_section">
                 <legend><span>LOGIN</span></legend>
-                <label for="nickname">NICKNAME:</label>
-                <input type="text" name="nickname" id="nickname">
-                <label for="pass">PASSWORD:</label>
-                <input type="password" name="pass" id="pass">
-                <button type="submit" id="sendLogin">SEND</button>
-                <a href="#" id="dont_account">DON'T YOU HAVE AN ACCOUNT?</a>
+                <div class="nickname_section">
+                    <label for="nickname">NICKNAME:</label>
+                    <input type="text" name="nickname" id="nickname">
+                </div>
+                <div class="password_section">
+                    <label for="pass">PASSWORD:</label>
+                    <input type="password" name="pass" id="pass">
+                </div>
+
+                <div class="button_container">
+                    <button type="submit" id="sendLogin">SEND</button>
+                    <a href="#" id="dont_account">DON'T YOU HAVE AN ACCOUNT?</a>
+                </div>
+
                 <p style="visibility: hidden;" id="incorrectText">User or password incorrects.</p>
             </fieldset>
-            <fieldset id="register_section" style="visibility: hidden;">
+            <fieldset id="register_section" style="visibility: hidden; display: none;">
                 <legend><span>REGISTER</span></legend>
                 <label for="register_nickname">NICKNAME:</label>
                 <input type="text" name="register_nickname" id="register_nickname">

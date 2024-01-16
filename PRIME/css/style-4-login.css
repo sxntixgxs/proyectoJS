@@ -9,3 +9,10 @@
 .claveIncorrectaRegistro{
     color: rgb(255, 102, 102);
 }
+.button_container{
+    display: flex;
+    max-height: 5rem;
+}
+#dont_account,#sendLogin{
+    margin: 0 auto;
+}
