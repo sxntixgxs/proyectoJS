@@ -1,0 +1,75 @@
+:root {
+    --purple: #8e44ad;
+    --verde: #2ecc71;
+    --black: #000;
+    --white: #fff;
+  }
+  
+  #vote {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: var(--white);
+    border: 2px solid var(--purple);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(100% / 3 - 40px); /* Three cards per row */
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .titleAlbum {
+    color: var(--black);
+    padding: 10px 15px;
+    background-color: var(--purple);
+    text-align: center;
+    font-size: 1.2em;
+  }
+  
+  .card p {
+    padding: 15px;
+    color: var(--black);
+    background-color: var(--white);
+  }
+  
+  .btn_stats, .btn_vote {
+    background-color: var(--verde);
+    color: var(--white);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn_stats:hover, .btn_vote:hover {
+    background-color: var(--purple);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .card {
+      width: calc(100% / 2 - 30px); /* Two cards per row for smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .card {
+      width: calc(100% - 40px); /* One card per row for mobile screens */
+    }
+  }
+  
