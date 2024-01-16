@@ -2,6 +2,8 @@ import { checkUsuario } from "./checkUsuario";
 import { habilitaRegistro } from "./habilitarRegistro";
 import { registrarUser } from "./registrarUser";
 import { registerApproved } from "./registerApproved";
+import { registerRechazo } from "./registerRechazo";
+
 const dont_account = document.getElementById("dont_account");
 const boton = document.getElementById("register_send");
 dont_account.addEventListener("click",habilitaRegistro);
@@ -17,6 +19,7 @@ boton.addEventListener("click",function(){
                 registerApproved()
             }else{
                 console.log("El registro no se completó")
+                registerRechazo()
             }
         })
 })
