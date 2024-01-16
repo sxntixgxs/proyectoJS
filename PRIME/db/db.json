@@ -33,37 +33,37 @@
   ],
   "albums":[
     {
-        "id":"1",
+        "id":1,
         "titulo":"808s & Heartbreak",
         "imagen":"https://sxntixgxs.github.io/FRONTEND/datosPrime/img/1.png",
         "texto":"Kanye's emotional masterpiece blending heartbreak and innovation."
     },
     {
-        "id":"2",
+        "id":2,
         "titulo":"En Letras Mayúsculas",
         "imagen":"https://sxntixgxs.github.io/FRONTEND/datosPrime/img/2.png",
         "texto":"Alcolirykoz's bold 2007 debut, a lyrical journey"
     },
     {
-        "id":"3",
+        "id":3,
         "titulo":"Esmeraldas",
         "imagen":"https://sxntixgxs.github.io/FRONTEND/datosPrime/img/3.png",
         "texto":"Crudo Means Raw's 2020 album, raw and authentic"
     },
     {
-        "id":"4",
+        "id":4,
         "titulo":"Euphanasia",
         "imagen":"https://sxntixgxs.github.io/FRONTEND/datosPrime/img/4.png",
         "texto":"Buhodermia's 2020 release, an euphoric musical journey"
     },
     {
-        "id":"5",
+        "id":5,
         "titulo":"LO-POCALYPSE LOOPS",
         "imagen":"https://sxntixgxs.github.io/FRONTEND/datosPrime/img/5.png",
         "texto":" A 2022 release, an apocalyptic musical experience."
     },
     {
-        "id":"6",
+        "id":6,
         "titulo":"Servicios Ambulatorioz",
         "imagen":"https://sxntixgxs.github.io/FRONTEND/datosPrime/img/6.png",
         "texto":"2017's Ambulatory Services, a sonic exploration"
