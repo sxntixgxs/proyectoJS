@@ -6,3 +6,6 @@
     background-color: #2ecc71;
     color: white;
 }
+.claveIncorrectaRegistro{
+    color: rgb(255, 102, 102);
+}
