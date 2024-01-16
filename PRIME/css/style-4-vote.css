@@ -14,11 +14,12 @@
   }
   
   .card {
-    background-color: var(--white);
+    background-color: var(--black);
     border: 2px solid var(--purple);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: calc(100% / 3 - 40px); /* Three cards per row */
+    width: calc(100% / 3 - 40px); 
+    /* Three cards per row */
     margin-bottom: 20px;
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
@@ -29,9 +30,10 @@
   }
   
   .card img {
-    width: 100%;
+    width: 200px;
     height: auto;
     display: block;
+    margin: 0 auto;
   }
   
   .titleAlbum {
@@ -44,8 +46,8 @@
   
   .card p {
     padding: 15px;
-    color: var(--black);
-    background-color: var(--white);
+    color: var(--white);
+    background-color: var(--black);
   }
   
   .btn_stats, .btn_vote {
