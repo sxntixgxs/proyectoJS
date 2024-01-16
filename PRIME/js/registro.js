@@ -1,8 +1,8 @@
-import { checkUsuario } from "./checkUsuario";
-import { habilitaRegistro } from "./habilitarRegistro";
-import { registrarUser } from "./registrarUser";
-import { registerApproved } from "./registerApproved";
-import { registerRechazo } from "./registerRechazo";
+import { checkUsuario } from "./checkUsuario.js";
+import { habilitaRegistro } from "./habilitarRegistro.js";
+import { registrarUser } from "./registrarUser.js";
+import { registerApproved } from "./registerApproved.js";
+import { registerRechazo } from "./registerRechazo.js";
 
 const dont_account = document.getElementById("dont_account");
 const boton = document.getElementById("register_send");
