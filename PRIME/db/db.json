@@ -67,6 +67,12 @@
         "titulo":"Servicios Ambulatorioz",
         "imagen":"https://sxntixgxs.github.io/FRONTEND/datosPrime/img/6.png",
         "texto":"2017's Ambulatory Services, a sonic exploration"
+    },
+    {
+      "id":7,
+      "titulo":"The W",
+      "imagen":"https://sxntixgxs.github.io/FRONTEND/datosPrime/img/7.png",
+      "texto":"The W by Wu-Tang Clan (2000): A gritty East Coast hip-hop odyssey with sharp lyricism and raw beats"
     }
 ]
 }
