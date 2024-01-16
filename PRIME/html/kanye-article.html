@@ -91,16 +91,16 @@
                 <label for="pass">PASSWORD:</label>
                 <input type="password" name="pass" id="pass">
                 <button type="submit" id="sendLogin">SEND</button>
-                <a href="#">DON'T YOU HAVE AN ACCOUNT?</a>
+                <a href="#" id="dont_account">DON'T YOU HAVE AN ACCOUNT?</a>
                 <p style="visibility: hidden;" id="incorrectText">User or password incorrects.</p>
             </fieldset>
-            <fieldset>
+            <fieldset id="register_section" style="visibility: hidden;">
                 <legend><span>REGISTER</span></legend>
-                <label for="nickname">NICKNAME:</label>
-                <input type="text" name="nickname" id="nickname">
-                <label for="pass">PASSWORD:</label>
-                <input type="password" name="pass" id="pass1">
-                <button class="send">SEND</button>
+                <label for="register_nickname">NICKNAME:</label>
+                <input type="text" name="register_nickname" id="register_nickname">
+                <label for="register_password">PASSWORD:</label>
+                <input type="password" name="register_password" id="register_password">
+                <button class="register_send" id="register_send">SEND</button>
             </fieldset>
             <div class="vote" id="vote">
                 <!-- <div class="card">
@@ -133,6 +133,7 @@
 <script src="../js/modal.js" type="module"></script>
 <script src="../js/charts.js"></script>
 <script src="../js/login.js" type="module"></script>
+<script src="../js/registro.js" type="module"></script>
 </body>
 
 </html>
