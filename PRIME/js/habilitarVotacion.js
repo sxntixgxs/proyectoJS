@@ -2,7 +2,7 @@ export default async function generarTarjeta() {
     const vote_section = document.getElementById("vote");
     const respuesta = await fetch('https://probable-fishstick-r4g5w5wj9q7wcqv4-3000.app.github.dev/albums');
     const json = await respuesta.json();
-
+    let i = 1;
     json.forEach(album => {
         const tarjeta = document.createElement("div");
         const img = document.createElement("img");
@@ -21,7 +21,7 @@ export default async function generarTarjeta() {
         btn_stats.id = "btn_stats";
         btn_stats.textContent = "SHOW CHARTS";
         btn_vote.classList.add("btn_vote");
-        btn_vote.id = "btn_vote";
+        btn_vote.id = `btn_vote${i}`;
         btn_vote.textContent = "VOTE";
 
         tarjeta.appendChild(img);
@@ -31,5 +31,6 @@ export default async function generarTarjeta() {
         tarjeta.appendChild(btn_vote);
 
         vote_section.appendChild(tarjeta);
+        i++
     });
 }

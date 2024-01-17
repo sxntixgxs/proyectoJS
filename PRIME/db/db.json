@@ -3,32 +3,38 @@
     {
       "id": "1",
       "nickname": "admin",
-      "pass": "1234"
+      "pass": "1234",
+      "yavoto":0
     },
     {
       "id": "2",
       "nickname": "usergenerico",
-      "pass": "1234"
+      "pass": "1234",
+      "yavoto":0
     },
     {
       "id": "3",
       "nickname": "userglobal",
-      "pass": "1234"
+      "pass": "1234",
+      "yavoto":0
     },
     {
       "id": "1036",
       "nickname": "gaba",
-      "pass": "1234"
+      "pass": "1234",
+      "yavoto":0
     },
     {
       "id": "1250",
       "nickname": "gaba",
-      "pass": "1234"
+      "pass": "1234",
+      "yavoto":0
     },
     {
       "id": "601",
       "nickname": "vago",
-      "pass": "123"
+      "pass": "123",
+      "yavoto":0
     }
   ],
   "albums":[

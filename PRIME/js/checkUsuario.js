@@ -9,5 +9,8 @@ export async function checkUsuario(user,clave){
     })
     const usuario_ingresado = await respuesta.json()
     let user_check = usuario_ingresado.length !== 0;
+    console.log(usuario_ingresado)
+    console.log(usuario_ingresado[0].id)//id sesion iniciada
+    localStorage.setItem('currentID',usuario_ingresado[0].id)
     return user_check 
 }
