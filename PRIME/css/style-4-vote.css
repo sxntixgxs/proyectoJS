@@ -4,7 +4,9 @@
     --black: #000;
     --white: #fff;
   }
-  
+  .pp{
+    cursor: pointer;
+  }
   #vote {
     display: flex;
     flex-wrap: wrap;
