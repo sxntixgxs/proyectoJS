@@ -57,6 +57,7 @@
 }
 #dont_account{
     max-width: 30%;
+    
     font-size: 80%;
 }
 #register_send,#sendLogin{
@@ -117,8 +118,12 @@
 .votar:hover {
     background-color: #6c3483;
 }
+@media(max-width:1024px){
 
-@media (max-width:768px) {
+    .modal--show{
+        width: 600px;
+    }}
+@media (min-width:426px) and (max-width:768px) {
     .modal{
         visibility: visible;
         box-sizing: border-box;

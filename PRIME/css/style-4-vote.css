@@ -100,14 +100,21 @@
     }
   }
   
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 425px) {
+    
     .card {
-      min-width: 300px;
-      max-width: 300px; /* One card per row for mobile screens */
+      min-width: 240px;
     }
-    .modal{
-      width: 100%;
+    .modal,.vote,.card{
+      max-width: 335px;
       /* max-width: 100rem; */
     }
+    .vote{
+      width: 300px;
+    }
+    .vote{
+      margin: 0 auto;
+    }
   }
+  
   

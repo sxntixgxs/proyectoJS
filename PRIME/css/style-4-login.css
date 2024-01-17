@@ -16,3 +16,38 @@
 #dont_account,#sendLogin{
     margin: 0 auto;
 }
+@media (min-width:426px)and(max-width:768px){
+    .modal--show{
+        max-width: 380px;
+    }
+    .modal{
+        max-width: 380px;
+    }
+    .modal-container{
+        box-sizing: border-box;
+        width: 300px;
+    }
+    .nickname_section,.password_section,#nickname,#register_nickname,#pass,#register_password{
+        width: 150px;
+        max-width: 150px;
+    }
+    #login_section,#register_section{
+        width: 380px;
+        max-width: 380px;
+    }
+    .mobile{
+        width: 200px;
+        max-width: 200px;
+    }
+    .button_container{
+        box-sizing: border-box;
+
+        /* display: flex;
+        flex-direction: column; */
+    }
+    #dont_account{
+        text-align: justify;
+    }
+    
+
+}

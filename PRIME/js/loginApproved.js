@@ -6,6 +6,6 @@ export function loginApproved(){
     nickname.classList.add("correctLogin");
     password.classList.add("correctLogin");
     setTimeout(()=>{login.style.visibility = "hidden";login.style.display="none";
-                    register.style.visibility = "hidden"},1000);
+                    register.style.visibility = "hidden";register.style.display="none"},1000);
     
 }

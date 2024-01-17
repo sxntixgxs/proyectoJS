@@ -54,7 +54,7 @@
     </article>
     <aside>
         <h2><span id="ap" class="pp">VOTE FOR THE BEST ALBUM ON PRIME</span></h2>
-        <ul>
+        <ul class="info_web">
             <li>
                 <p>En Letras Mayúsculas -Alcolirykoz (2007)</p>
                 <img src="../img/enletras.jpg" class="cover">
@@ -84,33 +84,33 @@
     <div class="modal" style="visibility: hidden;" id="modal">
         <div class="modal-container">
             <!-- <div class="espacio"></div> -->
-            <fieldset id="login_section" style="visibility: hidden; display: none;">
+            <fieldset id="login_section" style="visibility: hidden; display: none;" class="mobile">
                 <legend><span>LOGIN</span></legend>
-                <div class="nickname_section" >
+                <div class="nickname_section mobile" >
                     <label for="nickname">NICKNAME:</label>
-                    <input type="text" name="nickname" id="nickname">
+                    <input type="text" name="nickname" id="nickname" class="mobile" style="width: 200px;">
                 </div>
-                <div class="password_section">
+                <div class="password_section mobile">
                     <label for="pass">PASSWORD:</label>
-                    <input type="password" name="pass" id="pass">
+                    <input type="password" name="pass" id="pass" class="mobile" style="width: 200px;">
                 </div>
 
                 <div class="button_container">
                     <button type="submit" id="sendLogin" class="pp">SEND</button>
-                    <a href="#" id="dont_account">DON'T YOU HAVE AN ACCOUNT?</a>
+                    <button id="dont_account">CREATE AN ACCOUNT</button>
                 </div>
 
                 <p style="visibility: hidden;" id="incorrectText">User or password incorrects.</p>
             </fieldset>
-            <fieldset id="register_section" style="visibility: hidden; display: none;">
+            <fieldset id="register_section" style="visibility: hidden; display: none;" class="mobile">
                 <legend><span>REGISTER</span></legend>
                 <div class="nickname_section">
                     <label for="register_nickname">NICKNAME:</label>
-                        <input type="text" name="register_nickname" id="register_nickname">
+                        <input type="text" name="register_nickname" id="register_nickname" class="mobile" style="width: 200px;">
                     </div>
-                <div class="password_section">
-                    <label for="register_password">PASSWORD:</label>
-                <input type="password" name="register_password" id="register_password"></div>
+                <div class="password_section mobile">
+                    <label for="register_password" style="width: 200px;">PASSWORD:</label>
+                <input type="password" name="register_password" id="register_password" class="mobile" style="width: 200px;"></div>
                 <button class="register_send" id="register_send">SEND</button>
             </fieldset>
             <div class="vote" id="vote">
