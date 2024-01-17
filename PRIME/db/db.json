@@ -4,7 +4,7 @@
       "id": "1",
       "nickname": "admin",
       "pass": "1234",
-      "yavoto": 0
+      "yavoto": 1
     },
     {
       "id": "2",
@@ -55,7 +55,7 @@
       "titulo": "808s & Heartbreak",
       "imagen": "https://sxntixgxs.github.io/FRONTEND/datosPrime/img/1.png",
       "texto": "Kanye's emotional masterpiece blending heartbreak and innovation.",
-      "votos": 0
+      "votos": 1
     },
     {
       "id": "2",
