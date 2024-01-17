@@ -84,7 +84,7 @@
     </aside>
     <div class="modal" style="visibility: hidden;" id="modal">
         <div class="modal-container">
-            <div class="espacio"></div>
+            <!-- <div class="espacio"></div> -->
             <fieldset id="login_section">
                 <legend><span>LOGIN</span></legend>
                 <div class="nickname_section">
@@ -105,10 +105,13 @@
             </fieldset>
             <fieldset id="register_section" style="visibility: hidden; display: none;">
                 <legend><span>REGISTER</span></legend>
-                <label for="register_nickname">NICKNAME:</label>
-                <input type="text" name="register_nickname" id="register_nickname">
-                <label for="register_password">PASSWORD:</label>
-                <input type="password" name="register_password" id="register_password">
+                <div class="nickname_section">
+                    <label for="register_nickname">NICKNAME:</label>
+                        <input type="text" name="register_nickname" id="register_nickname">
+                    </div>
+                <div class="password_section">
+                    <label for="register_password">PASSWORD:</label>
+                <input type="password" name="register_password" id="register_password"></div>
                 <button class="register_send" id="register_send">SEND</button>
             </fieldset>
             <div class="vote" id="vote">
@@ -131,7 +134,10 @@
                     <button onclick="votar('album3')" class="votar"g>Votar</button>
                 </div> -->
             </div>
-            <a href="#" class="close-modal">GO BACK</a>
+            <div class="btn_back">
+                <a href="#" class="close-modal">GO BACK</a>
+            </div>
+
 
         </div>
     </div>
