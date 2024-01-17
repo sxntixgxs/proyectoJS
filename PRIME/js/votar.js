@@ -1,7 +1,7 @@
 import { checkVoto } from "./checkVoto.js";
 import { withVoto, sumVoto } from "./votoFunctions.js"; 
 
-document.addEventListener('botonesCreados', function() {
+document.addEventListener('botonesCreados', async function() {
     let btn1 = document.getElementById("btn_vote1")
     let btn2 = document.getElementById("btn_vote2")
     let btn3 = document.getElementById("btn_vote3")
@@ -15,7 +15,8 @@ document.addEventListener('botonesCreados', function() {
     let id = localStorage.getItem('currentID');
     console.log("Esta es la sesión iniciada:", id);
     //antes de todo debo revisar si el usuario ya voto
-    let tieneVoto = checkVoto(id);
+    let tieneVoto = await checkVoto(id);
+    console.log("tiene voto ",tieneVoto)
     if(tieneVoto){
         withVoto()
     }else{

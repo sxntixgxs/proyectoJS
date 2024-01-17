@@ -6,7 +6,7 @@ export async function checkVoto(id){
         },
     })
     const usuario = await respuesta.json();
-    console.log("yavoto",usuario[0].yavoto)
+    console.log("yavoto hola",usuario[0].yavoto)
     let valorVoto = usuario[0].yavoto;
     return valorVoto !==0
 }
