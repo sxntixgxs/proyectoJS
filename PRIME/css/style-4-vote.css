@@ -78,13 +78,22 @@
   
   @media screen and (max-width: 768px) {
     .card {
-      width: calc(100% / 2 - 30px); /* Two cards per row for smaller screens */
+      max-width: 400px;/* Two cards per row for smaller screens */
+    }
+    .modal{
+      width: 75%;
+      /* max-width: 100rem; */
     }
   }
   
   @media screen and (max-width: 480px) {
     .card {
-      width: calc(100% - 40px); /* One card per row for mobile screens */
+      min-width: 300px;
+      max-width: 300px; /* One card per row for mobile screens */
+    }
+    .modal{
+      width: 100%;
+      /* max-width: 100rem; */
     }
   }
   
