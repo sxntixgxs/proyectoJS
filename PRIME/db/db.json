@@ -4,7 +4,7 @@
       "id": "1",
       "nickname": "admin",
       "pass": "1234",
-      "yavoto": 0
+      "yavoto": 1
     },
     {
       "id": "2",
@@ -62,7 +62,7 @@
       "titulo": "En Letras Mayúsculas",
       "imagen": "https://sxntixgxs.github.io/FRONTEND/datosPrime/img/2.png",
       "texto": "Alcolirykoz's bold 2007 debut, a lyrical journey",
-      "votos": 0
+      "votos": 1
     },
     {
       "id": "3",
