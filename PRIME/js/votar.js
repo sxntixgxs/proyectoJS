@@ -14,23 +14,40 @@ document.addEventListener('botonesCreados', function() {
 
     let id = localStorage.getItem('currentID');
     console.log("Esta es la sesión iniciada:", id);
-
-    function manejarVoto() {
-        
-        console.log("Esta funcion manejar voto funciona")
-        let id = localStorage.getItem('currentID');
-        let siVoto = checkVoto(id);
-        console.log("El usuario ha votado:", siVoto);
-
-        if (siVoto) {
-            withVoto();
-        } else {
-            sumVoto(id); // Suponiendo que sumVoto incrementa el voto
+    //antes de todo debo revisar si el usuario ya voto
+    let tieneVoto = checkVoto(id);
+    if(tieneVoto){
+        withVoto()
+    }else{
+        function manejarVoto(event){
+            let botonPresionado = event.target //con esto obtengo el boton presionado de la botonera
+            let idBoton = botonPresionado.id //saco la propiedad id
+            let idAlbum = idBoton.replace('btn_vote','')
+            console.log(`el ${id} ha votado por ${idAlbum}`);
+            sumVoto(id,idAlbum);
         }
+        voteButtons.forEach(boton => {
+            boton.addEventListener("click",manejarVoto)
+         });
     }
+})
 
-     voteButtons.forEach(boton => {
-        boton.addEventListener("click",manejarVoto)
-     });
-    });
-;
+
+//     function manejarVoto() {
+        
+//         let id = localStorage.getItem('currentID');
+//         let siVoto = checkVoto(id);
+//         console.log("El usuario ha votado:", siVoto);
+
+//         if (siVoto) {
+//             withVoto();
+//         } else {
+//             sumVoto(id); // Suponiendo que sumVoto incrementa el voto
+//         }
+//     }
+
+//      voteButtons.forEach(boton => {
+//         boton.addEventListener("click",manejarVoto)
+//      });
+//     });
+// ;

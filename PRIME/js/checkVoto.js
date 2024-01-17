@@ -6,9 +6,7 @@ export async function checkVoto(id){
         },
     })
     const usuario = await respuesta.json();
-    let valorVoto = usuario.yavoto;
-    let siVoto = false;
-    valorVoto !== 0 ? siVoto = true : siVoto
-    console.log(`el id ${id} ha votado`,siVoto)
-    return siVoto
+    console.log("yavoto",usuario[0].yavoto)
+    let valorVoto = usuario[0].yavoto;
+    return valorVoto !==0
 }
