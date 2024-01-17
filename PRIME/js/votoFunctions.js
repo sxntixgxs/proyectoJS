@@ -42,7 +42,7 @@ export async function sumVoto(id,idAlbum){
     })
     console.log("acabo de pedir los datos de votacion del album")
     const album = await rta.json()
-    let votosAlbum = album.votos+1;
+    let votosAlbum = album[0].votos + 1
     fetch(`https://probable-fishstick-r4g5w5wj9q7wcqv4-3000.app.github.dev/albums/${idAlbum}`,{
         method: 'PATCH',
         body: JSON.stringify({
