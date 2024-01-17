@@ -36,43 +36,50 @@
         "id":1,
         "titulo":"808s & Heartbreak",
         "imagen":"https://sxntixgxs.github.io/FRONTEND/datosPrime/img/1.png",
-        "texto":"Kanye's emotional masterpiece blending heartbreak and innovation."
+        "texto":"Kanye's emotional masterpiece blending heartbreak and innovation.",
+        "votos":0
     },
     {
         "id":2,
         "titulo":"En Letras Mayúsculas",
         "imagen":"https://sxntixgxs.github.io/FRONTEND/datosPrime/img/2.png",
-        "texto":"Alcolirykoz's bold 2007 debut, a lyrical journey"
+        "texto":"Alcolirykoz's bold 2007 debut, a lyrical journey",
+        "votos":0
     },
     {
         "id":3,
         "titulo":"Esmeraldas",
         "imagen":"https://sxntixgxs.github.io/FRONTEND/datosPrime/img/3.png",
-        "texto":"Crudo Means Raw's 2020 album, raw and authentic"
+        "texto":"Crudo Means Raw's 2020 album, raw and authentic",
+        "votos":0
     },
     {
         "id":4,
         "titulo":"Euphanasia",
         "imagen":"https://sxntixgxs.github.io/FRONTEND/datosPrime/img/4.png",
-        "texto":"Buhodermia's 2020 release, an euphoric musical journey"
+        "texto":"Buhodermia's 2020 release, an euphoric musical journey",
+        "votos":0
     },
     {
         "id":5,
         "titulo":"LO-POCALYPSE LOOPS",
         "imagen":"https://sxntixgxs.github.io/FRONTEND/datosPrime/img/5.png",
-        "texto":" A 2022 release, an apocalyptic musical experience."
+        "texto":" A 2022 release, an apocalyptic musical experience.",
+        "votos":0
     },
     {
         "id":6,
         "titulo":"Servicios Ambulatorioz",
         "imagen":"https://sxntixgxs.github.io/FRONTEND/datosPrime/img/6.png",
-        "texto":"2017's Ambulatory Services, a sonic exploration"
+        "texto":"2017's Ambulatory Services, a sonic exploration",
+        "votos":0
     },
     {
       "id":7,
       "titulo":"The W",
       "imagen":"https://sxntixgxs.github.io/FRONTEND/datosPrime/img/7.png",
-      "texto":"The W by Wu-Tang Clan (2000): A gritty East Coast hip-hop odyssey with sharp lyricism and raw beats"
+      "texto":"The W by Wu-Tang Clan (2000): A gritty East Coast hip-hop odyssey with sharp lyricism and raw beats",
+      "votos":0
     }
 ]
 }
