@@ -14,7 +14,13 @@
     gap: 20px;
     padding: 20px;
   }
-  
+  .logout{
+    background-color: rgb(255, 102, 102);
+  }
+  .logout:hover{
+    background-color: #fff;
+    color: rgb(255, 102, 102);
+  }
   .card {
     background-color: var(--black);
     border: 2px solid var(--purple);

@@ -3,7 +3,21 @@
 import { checkUsuario } from "./checkUsuario.js";
 import habilitarVotacion from "./habilitarVotacion.js"
 import { loginRechazo } from "./loginRechazo.js";
-import { loginApproved } from "./loginApproved.js"
+import { loginApproved } from "./loginApproved.js";
+
+let id = localStorage.getItem('currentID');
+console.log(id)
+if(id === null){
+    console.log("se ejecuta el if")
+    let login = document.getElementById("login_section");
+    login.style.visibility = "visible";
+    login.style.display = "";
+}else{
+    habilitarVotacion()
+    loginApproved()
+    console.log("se ejecuta el else")
+}
+
 let boton = document.getElementById("sendLogin");
 boton.addEventListener("click",function(){
     console.log("Soy el boton send login")
@@ -22,3 +36,16 @@ boton.addEventListener("click",function(){
         })
 })
 
+let logout = document.getElementById("logout");
+logout.addEventListener("click",()=>{
+    localStorage.clear();
+    modal.classList.remove("modal--show")
+    location.reload();
+})
+//     localStorage.setItem("currentID",null);
+//     logout.style.display = "none";
+//     logout.style.visibility = "hidden";
+//     // let login = document.getElementById("login_section");
+//     // login.style.visibility = "visible";
+//     // login.style.display = "";
+//     //tengo que configurar el boton logout
