@@ -26,6 +26,7 @@ document.addEventListener('botonesCreados', async function() {
             let idAlbum = idBoton.replace('btn_vote','')
             console.log(`el ${id} ha votado por ${idAlbum}`);
             sumVoto(id,idAlbum);
+            withVoto();
         }
         voteButtons.forEach(boton => {
             boton.addEventListener("click",manejarVoto)
