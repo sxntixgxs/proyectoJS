@@ -29,6 +29,10 @@
   }
   .vote{
     margin: 0 auto;
+    width: 490px;
+  }
+  .modal::-webkit-scrollbar {
+    display: none;
   }
   .card:hover {
     transform: scale(1.05);
@@ -77,7 +81,9 @@
   .btn_stats:hover, .btn_vote:hover {
     background-color: var(--purple);
   }
-  
+  .withVoto{
+    background-color: rgb(255, 102, 102);
+  }
   @media screen and (max-width: 768px) {
     .card {
       max-width: 400px;/* Two cards per row for smaller screens */

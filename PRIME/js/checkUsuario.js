@@ -12,5 +12,7 @@ export async function checkUsuario(user,clave){
     console.log(usuario_ingresado)
     console.log(usuario_ingresado[0].id)//id sesion iniciada
     localStorage.setItem('currentID',usuario_ingresado[0].id)
+    console.log("acabo de enviar el localStorage?")
+    console.log("este es el ID del usuario actual",localStorage.getItem('currentID'))
     return user_check 
 }

@@ -15,7 +15,7 @@ boton.addEventListener("click",function(){
                 console.log("Estas registrado papa")
                 habilitarVotacion()
                 loginApproved()
-
+                
             }else{
                 loginRechazo()
             }

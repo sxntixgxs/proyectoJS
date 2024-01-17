@@ -33,4 +33,6 @@ export default async function generarTarjeta() {
         vote_section.appendChild(tarjeta);
         i++
     });
+    let eventoBotonesCreados = new Event('botonesCreados');
+    document.dispatchEvent(eventoBotonesCreados);
 }

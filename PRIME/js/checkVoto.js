@@ -9,5 +9,6 @@ export async function checkVoto(id){
     let valorVoto = usuario.yavoto;
     let siVoto = false;
     valorVoto !== 0 ? siVoto = true : siVoto
+    console.log(`el id ${id} ha votado`,siVoto)
     return siVoto
 }
