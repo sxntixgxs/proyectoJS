@@ -19,7 +19,14 @@
       "nickname": "usergenerico",
       "pass": "1234",
       "yavoto": 0,
-      "musicInfo": {}
+      "musicInfo": {
+        "name": "Santiago",
+        "email": "sandoval@gmail.com",
+        "number": 61651561,
+        "recordLabel": "cositas",
+        "topsong": "https://youtube.com",
+        "musicname": "blazeout"
+      }
     },
     {
       "id": "3",
