@@ -77,6 +77,18 @@
       "nickname": "prueba1",
       "pass": "1234",
       "yavoto": 1
+    },
+    {
+      "id": "b19a",
+      "nickname": "prueba2",
+      "pass": "1234",
+      "yavoto": 1
+    },
+    {
+      "id": "33ff",
+      "nickname": "prueba3",
+      "pass": "1234",
+      "yavoto": 1
     }
   ],
   "albums": [
@@ -99,7 +111,7 @@
       "titulo": "Esmeraldas",
       "imagen": "https://sxntixgxs.github.io/FRONTEND/datosPrime/img/3.png",
       "texto": "Crudo Means Raw's 2020 album, raw and authentic",
-      "votos": 3
+      "votos": 5
     },
     {
       "id": "4",
