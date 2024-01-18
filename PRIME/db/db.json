@@ -65,6 +65,12 @@
       "nickname": "blaze",
       "pass": "out",
       "yavoto": 1
+    },
+    {
+      "id": "ce51",
+      "nickname": "paula",
+      "pass": "1234",
+      "yavoto": 1
     }
   ],
   "albums": [
@@ -101,7 +107,7 @@
       "titulo": "LO-POCALYPSE LOOPS",
       "imagen": "https://sxntixgxs.github.io/FRONTEND/datosPrime/img/5.png",
       "texto": " A 2022 release, an apocalyptic musical experience.",
-      "votos": 1
+      "votos": 2
     },
     {
       "id": "6",
