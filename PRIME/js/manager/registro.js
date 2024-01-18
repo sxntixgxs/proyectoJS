@@ -12,7 +12,8 @@ boton.addEventListener("click",function(){
     let user = document.getElementById("register_nickname").value;
     let clave = document.getElementById("register_password").value;
     registrarUser(user,clave)
-    checkUsuario(user,clave)
+        .then(
+        checkUsuario(user,clave)
         .then(user_check=>{
             if(user_check===true){
                 console.log("Registro completado jeje")
@@ -21,5 +22,5 @@ boton.addEventListener("click",function(){
                 console.log("El registro no se completó")
                 registerRechazo()
             }
-        })
+        }))
 })
