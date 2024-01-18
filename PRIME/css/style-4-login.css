@@ -51,3 +51,12 @@
     
 
 }
+@media (max-width:425px){
+    fieldset{
+        max-width: 200px;
+    }
+    .nickname_section,.password_section,#nickname,#register_nickname,#pass,#register_password{
+        width: 150px;
+        max-width: 150px;
+    }
+}
