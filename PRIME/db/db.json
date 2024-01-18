@@ -4,7 +4,7 @@
       "id": "1",
       "nickname": "admin",
       "pass": "1234",
-      "yavoto": 0
+      "yavoto": 1
     },
     {
       "id": "2",
@@ -47,6 +47,12 @@
       "nickname": "pablo",
       "pass": "1234",
       "yavoto": 0
+    },
+    {
+      "id": "6a76",
+      "nickname": "menor",
+      "pass": "123",
+      "yavoto": 1
     }
   ],
   "albums": [
@@ -83,7 +89,7 @@
       "titulo": "LO-POCALYPSE LOOPS",
       "imagen": "https://sxntixgxs.github.io/FRONTEND/datosPrime/img/5.png",
       "texto": " A 2022 release, an apocalyptic musical experience.",
-      "votos": 0
+      "votos": 1
     },
     {
       "id": "6",
@@ -97,7 +103,7 @@
       "titulo": "The W",
       "imagen": "https://sxntixgxs.github.io/FRONTEND/datosPrime/img/7.png",
       "texto": "The W by Wu-Tang Clan (2000): A gritty East Coast hip-hop odyssey with sharp lyricism and raw beats",
-      "votos": 0
+      "votos": 1
     }
   ]
 }
