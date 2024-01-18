@@ -138,7 +138,28 @@
       "nickname": "fanaccount",
       "pass": "1234",
       "yavoto": 1,
-      "musicInfo": {}
+      "musicInfo": {
+        "name": "Santiago",
+        "email": "sandoval@santiago",
+        "number": "3242442868",
+        "recordLabel": "RIMAS",
+        "topsong": "https://www.youtube.com/watch?v=-FYPoMKnVOw",
+        "musicname": "DY"
+      }
+    },
+    {
+      "id": "e923",
+      "nickname": "prueba57",
+      "pass": "1234",
+      "yavoto": 0,
+      "musicInfo": {
+        "name": "",
+        "email": "",
+        "number": "",
+        "recordLabel": "",
+        "topsong": "",
+        "musicname": ""
+      }
     }
   ],
   "albums": [
