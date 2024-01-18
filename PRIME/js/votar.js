@@ -1,6 +1,8 @@
 import { checkVoto } from "./checkVoto.js";
+// import { albumVotos } from "./valoresGraph.js";
 import { withVoto, sumVoto } from "./votoFunctions.js"; 
-
+import { albumVotos } from "./valoresGraph.js";
+import {actualizarGraph} from "./actualizarGraph.js"
 document.addEventListener('botonesCreados', async function() {
     let btn1 = document.getElementById("btn_vote1")
     let btn2 = document.getElementById("btn_vote2")
@@ -20,13 +22,15 @@ document.addEventListener('botonesCreados', async function() {
     if(tieneVoto){
         withVoto()
     }else{
-        function manejarVoto(event){
+        async function manejarVoto(event){
             let botonPresionado = event.target //con esto obtengo el boton presionado de la botonera
             let idBoton = botonPresionado.id //saco la propiedad id
             let idAlbum = idBoton.replace('btn_vote','')
             console.log(`el ${id} ha votado por ${idAlbum}`);
             sumVoto(id,idAlbum);
             withVoto();
+            let datosActualizados = await albumVotos();
+            actualizarGraph(datosActualizados)
         }
         voteButtons.forEach(boton => {
             boton.addEventListener("click",manejarVoto)
