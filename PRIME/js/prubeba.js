@@ -1,17 +1,12 @@
-import Chart from 'chart.js/auto';
-import { albumVotos } from "./valoresGraph.js"
-async function crearGraph(){
 
-
-    let datos= await albumVotos();
     var ctx = document.getElementById('myChart').getContext('2d');
     var myChart = new Chart(ctx, {
         type: 'bar',
         data: {
-            label: datos[0],
+            labels: ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'],
             datasets: [{
-                label: 'PRIME CHART',
-                data: datos[1],
+                label: 'Número de Visitas',
+                data: [12, 19, 3, 5, 2, 3, 9],
                 backgroundColor: [
                     'rgba(255, 99, 132, 0.2)',
                     'rgba(54, 162, 235, 0.2)',
@@ -44,4 +39,3 @@ async function crearGraph(){
         }
     });
 
-}crearGraph()
