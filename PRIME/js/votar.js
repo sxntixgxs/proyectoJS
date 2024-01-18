@@ -1,14 +1,14 @@
 import { checkVoto } from "./checkVoto.js";
-import { withVoto, sumVoto } from "./votoFunctions.js"; 
+import { recargaChart,withVoto, sumVoto } from "./votoFunctions.js"; 
 
 document.addEventListener('botonesCreados', async function() {
-    let btn1 = document.getElementById("btn_vote1")
-    let btn2 = document.getElementById("btn_vote2")
-    let btn3 = document.getElementById("btn_vote3")
-    let btn4 = document.getElementById("btn_vote4")
-    let btn5 = document.getElementById("btn_vote5")
-    let btn6 = document.getElementById("btn_vote6")
-    let btn7 = document.getElementById("btn_vote7")
+    let btn1 = document.getElementById("btn_stats1")
+    let btn2 = document.getElementById("btn_stats2")
+    let btn3 = document.getElementById("btn_stats3")
+    let btn4 = document.getElementById("btn_stats4")
+    let btn5 = document.getElementById("btn_stats5")
+    let btn6 = document.getElementById("btn_stats6")
+    let btn7 = document.getElementById("btn_stats7")
 
     let voteButtons = [btn1, btn2, btn3, btn4, btn5, btn6, btn7]; 
 
@@ -23,7 +23,7 @@ document.addEventListener('botonesCreados', async function() {
         function manejarVoto(event){
             let botonPresionado = event.target //con esto obtengo el boton presionado de la botonera
             let idBoton = botonPresionado.id //saco la propiedad id
-            let idAlbum = idBoton.replace('btn_vote','')
+            let idAlbum = idBoton.replace('btn_stats','')
             console.log(`el ${id} ha votado por ${idAlbum}`);
             sumVoto(id,idAlbum);
             withVoto();
@@ -33,8 +33,6 @@ document.addEventListener('botonesCreados', async function() {
          });
     }
 })
-
-
 //     function manejarVoto() {
         
 //         let id = localStorage.getItem('currentID');

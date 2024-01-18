@@ -42,6 +42,7 @@ logout.addEventListener("click",()=>{
     modal.classList.remove("modal--show")
     location.reload();
 })
+
 //     localStorage.setItem("currentID",null);
 //     logout.style.display = "none";
 //     logout.style.visibility = "hidden";
