@@ -30,7 +30,8 @@ document.addEventListener('botonesCreados', async function() {
             sumVoto(id,idAlbum);
             withVoto();
             let datosActualizados = await albumVotos();
-            actualizarGrafico(datosActualizados)
+            console.log("estos son los datos actualizados",datosActualizados)
+            // actualizarGrafico(datosActualizados)
         }
         voteButtons.forEach(boton => {
             boton.addEventListener("click",manejarVoto)
