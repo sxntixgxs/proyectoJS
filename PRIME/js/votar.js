@@ -2,7 +2,7 @@ import { checkVoto } from "./checkVoto.js";
 // import { albumVotos } from "./valoresGraph.js";
 import { withVoto, sumVoto } from "./votoFunctions.js"; 
 import { albumVotos } from "./valoresGraph.js";
-import {actualizarGraph} from "./actualizarGraph.js"
+import { actualizarGrafico } from "./actualizarGraph.js"
 document.addEventListener('botonesCreados', async function() {
     let btn1 = document.getElementById("btn_vote1")
     let btn2 = document.getElementById("btn_vote2")
@@ -30,7 +30,7 @@ document.addEventListener('botonesCreados', async function() {
             sumVoto(id,idAlbum);
             withVoto();
             let datosActualizados = await albumVotos();
-            actualizarGraph(datosActualizados)
+            actualizarGrafico(datosActualizados)
         }
         voteButtons.forEach(boton => {
             boton.addEventListener("click",manejarVoto)
