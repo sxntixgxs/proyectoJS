@@ -1,11 +1,14 @@
 
 import { albumVotos } from "./valoresGraph.js";
-let myChart;
+let myChart = null;
 async function iniciarGraph(){
     let datos= await albumVotos();
     console.log("estos son los datos",datos)
 
     var ctx = document.getElementById('myChart').getContext('2d');
+    if(myChart){
+        myChart.destroy();
+    }
     myChart = new Chart(ctx, {        
         type: 'bar',
         data: {
@@ -45,9 +48,12 @@ async function iniciarGraph(){
     }
 });
 }
+document.addEventListener('DOMContentLoaded', (event) => {
+    const act = document.getElementById("update_votes");
+    act.addEventListener("click", iniciarGraph);
+});
+
+
 iniciarGraph();
 
-
-
- 
-
+// Añadir el manejador de eventos después de asegurarse de que el gráfico esté inicializado
