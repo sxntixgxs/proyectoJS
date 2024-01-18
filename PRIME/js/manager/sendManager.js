@@ -18,9 +18,7 @@ btn.addEventListener("click",async function(){
     }
 
 })
-if (!respuesta.ok) {
-    throw new Error(`HTTP error! status: ${respuesta.status}`);
-}
+
 
 
 
