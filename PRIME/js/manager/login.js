@@ -1,9 +1,9 @@
 //recoger valores ingresados en nickname y password cuando se de click a send
 
-import { checkUsuario } from "./checkUsuario.js";
-import habilitarVotacion from "./habilitarVotacion.js"
-import { loginRechazo } from "./loginRechazo.js";
-import { loginApproved } from "./loginApproved.js";
+import { checkUsuario } from "../checkUsuario.js";
+import habilitarVotacion from "../habilitarVotacion.js"
+import { loginRechazo } from "../loginRechazo.js";
+import { loginApproved } from "../loginApproved.js";
 
 let id = localStorage.getItem('currentID');
 console.log(id)
