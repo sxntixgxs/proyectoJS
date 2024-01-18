@@ -102,7 +102,7 @@ fieldset input{
     width: 80%;
     margin-left: 10%;
 }
-button{
+#sendInfo{
     background-color: black;
     border: 2px solid var(--purple);
     border-radius: 50px;
@@ -110,7 +110,7 @@ button{
     height: 3rem;
     transition: transform 0.3s ease;
 }
-button::after,button::before{
+#sendInfo::after,#sendInfo::before{
     opacity: 0.3;
     background-color: var(--purple);
     border-radius: inherit;
@@ -121,15 +121,15 @@ button::after,button::before{
     z-index: -1;
     transition: transform 0.3s ease;
 }
-button:hover{
+#sendInfo:hover{
     transform: translate(-12px, -12px);
     border: 1px solid black;
     background-color: var(--purple);
 }
-button:hover::after{
+#sendInfo:hover::after{
     transform: translate(6px, 6px);
 }
-button:hover::before{
+#sendInfo:hover::before{
     transform: translate(12px, 12px);
 }
 footer{

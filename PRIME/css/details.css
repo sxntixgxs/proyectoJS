@@ -1,0 +1,10 @@
+input:focus{
+    background-color: rgb(102, 255, 102);
+}
+#sendInfo{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
