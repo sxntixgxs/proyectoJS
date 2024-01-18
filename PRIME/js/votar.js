@@ -29,8 +29,8 @@ document.addEventListener('botonesCreados', async function() {
             console.log(`el ${id} ha votado por ${idAlbum}`);
             sumVoto(id,idAlbum);
             withVoto();
-            let datosActualizados = await albumVotos();
-            console.log("estos son los datos actualizados",datosActualizados)
+            // let datosActualizados = await albumVotos();
+            // console.log("estos son los datos actualizados",datosActualizados)
             // actualizarGrafico(datosActualizados)
         }
         voteButtons.forEach(boton => {
