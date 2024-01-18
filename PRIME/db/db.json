@@ -101,6 +101,12 @@
       "nickname": "cuentagenerica",
       "pass": "1234",
       "yavoto": 1
+    },
+    {
+      "id": "e7dc",
+      "nickname": "fanaccount",
+      "pass": "1234",
+      "yavoto": 1
     }
   ],
   "albums": [
@@ -151,7 +157,7 @@
       "titulo": "The W",
       "imagen": "https://sxntixgxs.github.io/FRONTEND/datosPrime/img/7.png",
       "texto": "The W by Wu-Tang Clan (2000): A gritty East Coast hip-hop odyssey with sharp lyricism and raw beats",
-      "votos": 5
+      "votos": 6
     }
   ]
 }
