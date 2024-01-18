@@ -1,7 +1,7 @@
-import { checkVoto } from "./checkVoto.js";
+import { checkVoto } from "../votoFunctions/checkVoto.js";
 // import { albumVotos } from "./valoresGraph.js";
-import { withVoto, sumVoto } from "./votoFunctions.js"; 
-import { albumVotos } from "./valoresGraph.js";
+import { withVoto, sumVoto } from "../votoFunctions/votoFunctions.js"; 
+import { albumVotos } from "../valoresGraph.js";
 
 document.addEventListener('botonesCreados', async function() {
     let btn1 = document.getElementById("btn_vote1")

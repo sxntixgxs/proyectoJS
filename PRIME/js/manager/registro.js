@@ -13,7 +13,7 @@ boton.addEventListener("click",function(){
     let clave = document.getElementById("register_password").value;
     registrarUser(user,clave)
         .then(
-        checkUsuario(user,clave)
+            checkUsuario(user,clave)
         .then(user_check=>{
             if(user_check===true){
                 console.log("Registro completado jeje")

@@ -13,4 +13,5 @@ export async function registrarUser(user,clave){
             'Content-type': 'application/json; charset=UTF-8',
         }
     })
+    return respuesta
 }
