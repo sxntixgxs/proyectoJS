@@ -1,0 +1,26 @@
+import { crearBody } from "../send/sendInfo.js";
+
+let btn = document.getElementById("sendInfo");
+btn.addEventListener("click",async function(){
+    let json=crearBody();
+    let id = localStorage.getItem("currentID");
+    if(id!==null){
+        const rta = await fetch(`https://probable-fishstick-r4g5w5wj9q7wcqv4-3000.app.github.dev/users/${id}`,{
+            method:"PATCH",
+            body:JSON.stringify(json),
+            headers: {
+                'Content-type': 'application/json; charset=UTF-8',
+            }
+
+        })
+    }else{
+        alert("LOGIN FIRST")
+    }
+
+})
+if (!respuesta.ok) {
+    throw new Error(`HTTP error! status: ${respuesta.status}`);
+}
+
+
+

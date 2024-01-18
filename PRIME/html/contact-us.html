@@ -62,24 +62,22 @@
             <fieldset>
                     <legend><span>Personal</span>Information</legend>
                     <label for="name">Full Name:</label>
-                    <input type="text" name="name" id="name">
+                    <input type="text" name="name" id="name" required>
                     <label for="email">Email:</label>
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="email" id="email" required>
                     <label for="number">Phone numer:</label>
-                    <input type="text" name="number" id="number" pattern="\d{10}">
+                    <input type="text" name="number" id="number" pattern="\d{10}"required>
                 </fieldset>
                 <fieldset>
                     <legend><span>Music</span>Information</legend>
                     <label for="recordlabel">Current Record Label</label>
                     <input type="text" name="recordlabel" id="recordlabel">
                     <label for="topsong">Top Song [LINK]</label>
-                    <input type="url" name="topsong" id="topsong">
+                    <input type="url" name="topsong" id="topsong"required>
                     <label for="musicname">Artist / Band name</label>
                     <input type="text" name="musicname" id="musicname">
-                    <label for="ref">Press photos </label>
-                    <input type="file" name="ref" id="ref"accept=".png,.jpg,.gif"></input>
                 </fieldset>
-                <button type="submit"  value="Ver mensaje" onclick="alert('Information sent successfully')">SEND</button>
+                <button type="submit" value="Ver mensaje" id="sendInfo">SEND</button>
         </form> 
     </section>
     <footer>
@@ -87,6 +85,7 @@
         <a href="#" class="line" id="logout">Logout</a>
     </footer>
     <script type="module" src="../js/manager/authManager.js"></script>
+    <script src="../js/manager/sendManager.js" type="module"></script>
     
     
 </body>

@@ -6,7 +6,8 @@ export async function registrarUser(user,clave){
         body: JSON.stringify({
             "nickname":user,
             "pass":clave,
-            "yavoto":0
+            "yavoto":0,
+            "musicInfo":{}
         }),
         headers: {
             'Content-type': 'application/json; charset=UTF-8',
