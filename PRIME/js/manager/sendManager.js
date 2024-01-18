@@ -28,7 +28,15 @@ btn.addEventListener("click", async function(){
         try {
             const response = await fetch(`https://probable-fishstick-r4g5w5wj9q7wcqv4-3000.app.github.dev/users/${id}`, {
                 method: "PATCH",
-                body: JSON.stringify({"musicInfo":json}),
+                body: JSON.stringify({
+                    "musicInfo":{
+                    "name":json.name,
+                    "email":json.email,
+                    "number":json.number,
+                    "recordLabel":json.recordLabel,
+                    "topsong":json.topsong,
+                    "musicname":json.musicname}
+                }),
                 headers: {
                     'Content-Type': 'application/json; charset=UTF-8',
                 }

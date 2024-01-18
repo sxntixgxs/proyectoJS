@@ -26,6 +26,13 @@ boton.addEventListener("click",function(){
             }
         })
 })
+let botonRegistro = document.getElementById("dont_account");
+botonRegistro.addEventListener("click",()=>{  
+        const register_section = document.getElementById("register_section");
+        register_section.style.visibility = "visible";
+        register_section.style.display = "";
+    
+})
 let logout = document.getElementById("logout");
 logout.addEventListener("click",(e)=>{
     e.stopPropagation()
