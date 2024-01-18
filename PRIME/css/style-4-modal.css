@@ -184,6 +184,10 @@
         width: 100%; /* Ocupar todo el ancho en pantallas muy pequeñas */
         border-radius: 0; /* Opcional: quitar bordes redondeados en pantallas pequeñas */
     }
+    .modal--show{
+        background-color: black;
+        border:2px solid #8e44ad;
+    }
 
 }
 @media(min-width:900px){

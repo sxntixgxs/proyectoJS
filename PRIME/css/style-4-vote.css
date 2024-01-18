@@ -123,6 +123,9 @@
       margin: 0 auto;
       margin-top: 20px;
     }
+    .card img{
+      max-width: 30%;
+    }
 
   }
   
