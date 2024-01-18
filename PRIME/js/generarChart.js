@@ -8,7 +8,7 @@ import { albumVotos } from "./valoresGraph.js"
         data: {
             labels: datos[0],
             datasets: [{
-                label: 'PRIME CHART',
+                label: 'USERS VOTE',
                 data: datos[1],
                 backgroundColor: [
                     'rgba(255, 99, 132, 0.2)',
