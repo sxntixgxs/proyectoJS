@@ -160,6 +160,41 @@
         "topsong": "",
         "musicname": ""
       }
+    },
+    {
+      "id": "79c5",
+      "nickname": "probandoCrear",
+      "pass": "1234",
+      "yavoto": 0,
+      "musicInfo": {}
+    },
+    {
+      "id": "5b55",
+      "nickname": "pruebaRegistro",
+      "pass": "1234",
+      "yavoto": 1,
+      "musicInfo": {}
+    },
+    {
+      "id": "6cc7",
+      "nickname": "pruebaRegistro2",
+      "pass": "1234",
+      "yavoto": 1,
+      "musicInfo": {}
+    },
+    {
+      "id": "b41c",
+      "nickname": "prueba777",
+      "pass": "1234",
+      "yavoto": 1,
+      "musicInfo": {}
+    },
+    {
+      "id": "49ee",
+      "nickname": "under",
+      "pass": "1234",
+      "yavoto": 1,
+      "musicInfo": {}
     }
   ],
   "albums": [
@@ -175,7 +210,7 @@
       "titulo": "En Letras Mayúsculas",
       "imagen": "https://sxntixgxs.github.io/FRONTEND/datosPrime/img/2.png",
       "texto": "Alcolirykoz's bold 2007 debut, a lyrical journey",
-      "votos": 10
+      "votos": 11
     },
     {
       "id": "3",
@@ -196,7 +231,7 @@
       "titulo": "LO-POCALYPSE LOOPS",
       "imagen": "https://sxntixgxs.github.io/FRONTEND/datosPrime/img/5.png",
       "texto": " A 2022 release, an apocalyptic musical experience.",
-      "votos": 2
+      "votos": 3
     },
     {
       "id": "6",
@@ -210,7 +245,7 @@
       "titulo": "The W",
       "imagen": "https://sxntixgxs.github.io/FRONTEND/datosPrime/img/7.png",
       "texto": "The W by Wu-Tang Clan (2000): A gritty East Coast hip-hop odyssey with sharp lyricism and raw beats",
-      "votos": 6
+      "votos": 8
     }
   ]
 }
