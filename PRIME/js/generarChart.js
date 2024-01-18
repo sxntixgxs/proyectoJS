@@ -1,14 +1,12 @@
-import Chart from 'chart.js/auto';
+
 import { albumVotos } from "./valoresGraph.js"
-async function crearGraph(){
-
-
     let datos= await albumVotos();
+    console.log("estos son los datos",datos)
     var ctx = document.getElementById('myChart').getContext('2d');
     var myChart = new Chart(ctx, {
         type: 'bar',
         data: {
-            label: datos[0],
+            labels: datos[0],
             datasets: [{
                 label: 'PRIME CHART',
                 data: datos[1],
@@ -43,5 +41,3 @@ async function crearGraph(){
             maintainAspectRatio: false
         }
     });
-
-}crearGraph()

@@ -61,14 +61,14 @@
       "titulo": "808s & Heartbreak",
       "imagen": "https://sxntixgxs.github.io/FRONTEND/datosPrime/img/1.png",
       "texto": "Kanye's emotional masterpiece blending heartbreak and innovation.",
-      "votos": 0
+      "votos": 2
     },
     {
       "id": "2",
       "titulo": "En Letras Mayúsculas",
       "imagen": "https://sxntixgxs.github.io/FRONTEND/datosPrime/img/2.png",
       "texto": "Alcolirykoz's bold 2007 debut, a lyrical journey",
-      "votos": 0
+      "votos": 10
     },
     {
       "id": "3",
@@ -82,7 +82,7 @@
       "titulo": "Euphanasia",
       "imagen": "https://sxntixgxs.github.io/FRONTEND/datosPrime/img/4.png",
       "texto": "Buhodermia's 2020 release, an euphoric musical journey",
-      "votos": 0
+      "votos": 2
     },
     {
       "id": "5",
@@ -96,14 +96,14 @@
       "titulo": "Servicios Ambulatorioz",
       "imagen": "https://sxntixgxs.github.io/FRONTEND/datosPrime/img/6.png",
       "texto": "2017's Ambulatory Services, a sonic exploration",
-      "votos": 0
+      "votos": 8
     },
     {
       "id": "7",
       "titulo": "The W",
       "imagen": "https://sxntixgxs.github.io/FRONTEND/datosPrime/img/7.png",
       "texto": "The W by Wu-Tang Clan (2000): A gritty East Coast hip-hop odyssey with sharp lyricism and raw beats",
-      "votos": 1
+      "votos": 4
     }
   ]
 }
