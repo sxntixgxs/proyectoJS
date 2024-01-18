@@ -13,7 +13,4 @@ export async function registrarUser(user,clave){
             'Content-type': 'application/json; charset=UTF-8',
         }
     })
-    if (!respuesta.ok) {
-        throw new Error(`HTTP error! status: ${respuesta.status}`);
-    }
 }
