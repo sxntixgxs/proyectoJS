@@ -5,126 +5,133 @@
       "nickname": "admin",
       "pass": "1234",
       "yavoto": 1,
-      "musicInfo":{}
+      "musicInfo": {
+        "name": "Santiago",
+        "email": "sandoval@gmail.com",
+        "number": 61651561,
+        "recordLabel": "cositas",
+        "topsong": "https://youtube.com",
+        "musicname": "blazeout"
+      }
     },
     {
       "id": "2",
       "nickname": "usergenerico",
       "pass": "1234",
       "yavoto": 0,
-      "musicInfo":{}
+      "musicInfo": {}
     },
     {
       "id": "3",
       "nickname": "userglobal",
       "pass": "1234",
       "yavoto": 0,
-      "musicInfo":{}
+      "musicInfo": {}
     },
     {
       "id": "1036",
       "nickname": "gaba",
       "pass": "1234",
       "yavoto": 1,
-      "musicInfo":{}
+      "musicInfo": {}
     },
     {
       "id": "1250",
       "nickname": "gaba",
       "pass": "1234",
       "yavoto": 0,
-      "musicInfo":{}
+      "musicInfo": {}
     },
     {
       "id": "601",
       "nickname": "vago",
       "pass": "123",
       "yavoto": 0,
-      "musicInfo":{}
+      "musicInfo": {}
     },
     {
       "id": "9431",
       "nickname": "pablo",
       "pass": "1234",
       "yavoto": 0,
-      "musicInfo":{}
+      "musicInfo": {}
     },
     {
       "id": "15ff",
       "nickname": "pablo",
       "pass": "1234",
       "yavoto": 0,
-      "musicInfo":{}
+      "musicInfo": {}
     },
     {
       "id": "6a76",
       "nickname": "menor",
       "pass": "123",
       "yavoto": 1,
-      "musicInfo":{}
+      "musicInfo": {}
     },
     {
       "id": "3a81",
       "nickname": "gabaR",
       "pass": "123456",
       "yavoto": 1,
-      "musicInfo":{}
+      "musicInfo": {}
     },
     {
       "id": "8927",
       "nickname": "blaze",
       "pass": "out",
       "yavoto": 1,
-      "musicInfo":{}
+      "musicInfo": {}
     },
     {
       "id": "ce51",
       "nickname": "paula",
       "pass": "1234",
       "yavoto": 1,
-      "musicInfo":{}
+      "musicInfo": {}
     },
     {
       "id": "0421",
       "nickname": "prueba1",
       "pass": "1234",
       "yavoto": 1,
-      "musicInfo":{}
+      "musicInfo": {}
     },
     {
       "id": "b19a",
       "nickname": "prueba2",
       "pass": "1234",
       "yavoto": 1,
-      "musicInfo":{}
+      "musicInfo": {}
     },
     {
       "id": "33ff",
       "nickname": "prueba3",
       "pass": "1234",
       "yavoto": 1,
-      "musicInfo":{}
+      "musicInfo": {}
     },
     {
       "id": "e742",
       "nickname": "prueba5",
       "pass": "1234",
       "yavoto": 1,
-      "musicInfo":{}
+      "musicInfo": {}
     },
     {
       "id": "f753",
       "nickname": "cuentagenerica",
       "pass": "1234",
       "yavoto": 1,
-      "musicInfo":{}
+      "musicInfo": {}
     },
     {
       "id": "e7dc",
       "nickname": "fanaccount",
       "pass": "1234",
       "yavoto": 1,
-      "musicInfo":{}
+      "musicInfo": {}
     }
   ],
   "albums": [
