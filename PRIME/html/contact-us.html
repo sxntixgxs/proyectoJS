@@ -16,11 +16,48 @@
         <li><a href="team-prime.html" class="line3">TEAM PRIME</a></li>
         <li><a href="kanye-article.html" class="line3">READ US</a></li>
         <li><a href="contact-us.html" class="hidden actual">CONTACT US</a></li>
+        <link rel="stylesheet" href="../css/style-4-modal.css">
+        <link rel="stylesheet" href="../css/style-4-login.css">
+        <link rel="stylesheet" href="../css/style-4-vote.css">
         
     </ul>
 </nav>
     </section>
     <section>
+        <div clas="abrirLogin">
+            <!-- <button id="ap">Log in</button>
+            <button id="logout">Log out</button> -->
+    
+            <fieldset id="login_section" style="visibility: hidden; display: none;" class="mobile">
+                <legend><span>LOGIN</span></legend>
+                <div class="nickname_section mobile" >
+                    <label for="nickname">NICKNAME:</label>
+                    <input type="text" name="nickname" id="nickname" class="mobile" style="width: 200px;">
+                </div>
+                <div class="password_section mobile">
+                    <label for="pass">PASSWORD:</label>
+                    <input type="password" name="pass" id="pass" class="mobile" style="width: 200px;">
+                </div>
+
+                <div class="button_container">
+                    <button type="submit" id="sendLogin" class="pp">SEND</button>
+                    <button id="dont_account">CREATE AN ACCOUNT</button>
+                </div>
+
+                <p style="visibility: hidden;" id="incorrectText">User or password incorrects.</p>
+            </fieldset>
+            <fieldset id="register_section" style="visibility: hidden; display: none;" class="mobile">
+                <legend><span>REGISTER</span></legend>
+                <div class="nickname_section">
+                    <label for="register_nickname">NICKNAME:</label>
+                        <input type="text" name="register_nickname" id="register_nickname" class="mobile" style="width: 200px;">
+                    </div>
+                <div class="password_section mobile">
+                    <label for="register_password" style="width: 200px;">PASSWORD:</label>
+                <input type="password" name="register_password" id="register_password" class="mobile" style="width: 200px;"></div>
+                <button class="register_send" id="register_send">SEND</button>
+            </fieldset>
+        </div>
         <form action="index.html" method="post">
             <fieldset>
                     <legend><span>Personal</span>Information</legend>
@@ -47,6 +84,10 @@
     </section>
     <footer>
         <a href="index.html" class="line">Go back</a>
+        <a href="index.html" class="line" id="logout">Logout</a>
     </footer>
+    <script type="module" src="../js/manager/authManager.js"></script>
+    
+    
 </body>
 </html>
