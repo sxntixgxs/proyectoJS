@@ -8,7 +8,7 @@ export default async function generarTarjeta() {
         const img = document.createElement("img");
         const titl = document.createElement("h2");
         const desc = document.createElement("p");
-        const btn_stats = document.createElement("button");
+        const btn_stats = document.createElement("a");
         const btn_vote = document.createElement("button");
 
         tarjeta.classList.add("card");
@@ -19,6 +19,7 @@ export default async function generarTarjeta() {
         titl.classList.add("titleAlbum");
         btn_stats.classList.add("btn_stats");
         btn_stats.id = "btn_stats";
+        btn_stats.href = "#myChart";
         btn_stats.textContent = "SHOW CHARTS";
         btn_vote.classList.add("btn_vote");
         btn_vote.id = `btn_vote${i}`;
