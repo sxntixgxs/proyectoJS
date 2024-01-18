@@ -54,7 +54,7 @@
 @media (max-width:425px){
 
     .nickname_section,.password_section,#nickname,#register_nickname,#pass,#register_password{
-
-        max-width: 200px;
+        
+        max-width: 150px;
     }
 }

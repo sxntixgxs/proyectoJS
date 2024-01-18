@@ -27,7 +27,8 @@ boton.addEventListener("click",function(){
         })
 })
 let logout = document.getElementById("logout");
-logout.addEventListener("click",()=>{
+logout.addEventListener("click",(e)=>{
+    e.stopPropagation()
     localStorage.clear();
     location.reload();
 })

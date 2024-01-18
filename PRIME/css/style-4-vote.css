@@ -102,19 +102,28 @@
   
   @media (max-width: 425px) {
     
-    .card {
-      min-width: 240px;
-    }
-    .vote,.card{
-      max-width: 335px;
-      /* max-width: 100rem; */
-    }
-    .vote{
+
+     .vote,.card{
+      max-width: 180px;
+    } 
+    /* .vote{
       width: 300px;
-    }
-    .vote{
+    } */
+    /* .vote{
+      margin: 0 auto;
+    } */
+    .card p{
+      font-size: 8px;
+      max-width: 40%;
       margin: 0 auto;
     }
+    .card h2{
+      font-size: 13px;
+      max-width: 40%;
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+
   }
   
   

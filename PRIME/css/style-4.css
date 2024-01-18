@@ -279,6 +279,7 @@ footer{
         justify-content: center;
     }
 }
+
 @media(max-width:425px){
     .listaMenu{
         margin: 0;
