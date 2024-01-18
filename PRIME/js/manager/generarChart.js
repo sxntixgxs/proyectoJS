@@ -1,5 +1,5 @@
 
-import { albumVotos } from "./valoresGraph.js";
+import { albumVotos } from "../valoresGraph.js";
 let myChart = null;
 async function iniciarGraph(){
     let datos= await albumVotos();
