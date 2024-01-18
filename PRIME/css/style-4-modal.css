@@ -166,3 +166,23 @@
         font-size: 2rem;
     }
 }
+.modal {
+    position: fixed;
+    /* otras propiedades */
+    width: 90%; /* Ancho por defecto más adaptable */
+    max-width: 600px; /* Máximo ancho para pantallas grandes */
+    /* otras propiedades */
+}
+
+@media screen and (max-width: 768px) {
+    .modal {
+        width: 95%; /* Ancho mayor para pantallas más pequeñas */
+    }
+}
+
+@media (max-width: 425px) {
+    .modal {
+        width: 100%; /* Ocupar todo el ancho en pantallas muy pequeñas */
+        border-radius: 0; /* Opcional: quitar bordes redondeados en pantallas pequeñas */
+    }
+}

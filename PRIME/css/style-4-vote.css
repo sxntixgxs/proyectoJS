@@ -100,12 +100,12 @@
     }
   }
   
-  @media screen and (max-width: 425px) {
+  @media (max-width: 425px) {
     
     .card {
       min-width: 240px;
     }
-    .modal,.vote,.card{
+    .vote,.card{
       max-width: 335px;
       /* max-width: 100rem; */
     }
