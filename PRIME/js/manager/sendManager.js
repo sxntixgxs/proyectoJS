@@ -1,27 +1,19 @@
 // Se asume que esta función se encuentra en el mismo archivo que el siguiente código
-function crearBody(){
+
+
+    
+
+
+// Manejo del evento click para el botón de envío
+let btn = document.getElementById("sendInfo");
+btn.addEventListener("click", async function(){
+ 
     let name = document.getElementById("name").value;
     let email = document.getElementById("email").value;
     let number = document.getElementById("number").value;
     let recordLabel = document.getElementById("recordlabel").value;
     let topsong = document.getElementById("topsong").value;
     let musicname = document.getElementById("musicname").value;
-    
-    return {
-        "name": name,
-        "email": email,
-        "number": number,
-        "recordLabel": recordLabel,
-        "topsong": topsong,
-        "musicname": musicname
-    };
-}
-
-// Manejo del evento click para el botón de envío
-let btn = document.getElementById("sendInfo");
-btn.addEventListener("click", async function(){
-    let json = crearBody();
-    console.log(json)
     let id = localStorage.getItem("currentID");
 
     if(id !== null){
@@ -30,12 +22,12 @@ btn.addEventListener("click", async function(){
                 method: "PATCH",
                 body: JSON.stringify({
                     "musicInfo":{
-                    "name":json.name,
-                    "email":json.email,
-                    "number":json.number,
-                    "recordLabel":json.recordLabel,
-                    "topsong":json.topsong,
-                    "musicname":json.musicname}
+                    "name":name,
+                    "email":email,
+                    "number":number,
+                    "recordLabel":recordLabel,
+                    "topsong":topsong,
+                    "musicname":musicname}
                 }),
                 headers: {
                     'Content-Type': 'application/json; charset=UTF-8',
