@@ -1,5 +1,6 @@
 
 
+
 export function withVoto(){
     const btn1 = document.getElementById("btn_vote1")
     const btn2 = document.getElementById("btn_vote2")
