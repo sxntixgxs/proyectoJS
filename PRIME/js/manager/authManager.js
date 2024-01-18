@@ -1,7 +1,7 @@
-import habilitarLogin from "../login-contact-us/habilitarLogin.js"
-import { checkUsuario } from "../checkUsuario.js";
-import { loginApproved } from "../loginApproved.js";
-import { loginRechazo } from "../loginRechazo.js";
+import habilitarLogin from "../loginFunctions/habilitarLogin.js"
+import { checkUsuario } from "../loginFunctions/checkUsuario.js";
+import { loginApproved } from "../loginFunctions/loginApproved.js";
+import { loginRechazo } from "../loginFunctions/loginRechazo.js";
 document.addEventListener('DOMContentLoaded', () => {
     console.log('La página se ha cargado completamente');
     let id = localStorage.getItem("currentID");

@@ -1,5 +1,5 @@
-import { abrirLogin } from "../abrirLogin.js";
-import habilitarVotacion from "../habilitarVotacion.js"
+
+
 //modal cuando se preisone approaves
 const abreModal = document.getElementById("ap");
 const modal = document.querySelector('.modal');
