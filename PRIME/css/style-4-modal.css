@@ -186,3 +186,8 @@
     }
 
 }
+@media(min-width:900px){
+    .modal{
+        min-width: 34%;
+    }
+}
