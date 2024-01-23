@@ -8,11 +8,11 @@ export async function checkUsuario(user,clave){
     const usuario_ingresado = await respuesta.json()
     let user_check = 0;
     console.log("info usuario ingresado",usuario_ingresado)
-    if(usuario_ingresado.tipoId===2){
+    if(usuario_ingresado[0].tipoId==="2"){
         localStorage.setItem("id",`${user}`)
         console.log("El usuario es un funcionario !!! mostrar pag funcionario")
         user_check=2
-    }else if(usuario_ingresado.tipoId===3){
+    }else if(usuario_ingresado[0].tipoId==="3"){
         localStorage.setItem("id",`${user}`)
         console.log("El usuario ingresado es un cliente !!!")
         user_check=3;

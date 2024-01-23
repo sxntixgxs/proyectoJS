@@ -1,6 +1,7 @@
 import { checkUsuario } from "../modelo/checkUsuario.js";
 import { habilitarCl } from "../modelo/habilitarCl.js";
 import { habilitarFuncionario } from "../modelo/habilitarFuncionario.js"
+import { cambiarVisual } from "../modelo/cambiarVisual.js"
 let boton = document.getElementById("sendLogin");
 boton.addEventListener("click",function(){
     console.log("Soy el boton send login")
@@ -13,6 +14,7 @@ boton.addEventListener("click",function(){
             if (user_check===2){
                 console.log("Recibo funcionario")
                 habilitarFuncionario()
+                cambiarVisual()
             }else if(user_check===3){
                 console.log("Recibo cl")
                 habilitarCl()

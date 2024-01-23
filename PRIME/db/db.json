@@ -6,12 +6,12 @@
       "pass": "1234",
       "yavoto": 1,
       "musicInfo": {
-        "name": "Santiago",
-        "email": "sandoval@gmail.com",
-        "number": 61651561,
-        "recordLabel": "cositas",
+        "name": "Santiag",
+        "email": "sandoval@torres",
+        "number": "3184267454",
+        "recordLabel": "youtube",
         "topsong": "https://youtube.com",
-        "musicname": "blazeout"
+        "musicname": "sdfsdf"
       }
     },
     {
@@ -195,6 +195,13 @@
       "pass": "1234",
       "yavoto": 1,
       "musicInfo": {}
+    },
+    {
+      "id": "93db",
+      "nickname": "prueba30",
+      "pass": "1234",
+      "yavoto": 1,
+      "musicInfo": {}
     }
   ],
   "albums": [
@@ -203,7 +210,7 @@
       "titulo": "808s & Heartbreak",
       "imagen": "https://sxntixgxs.github.io/FRONTEND/datosPrime/img/1.png",
       "texto": "Kanye's emotional masterpiece blending heartbreak and innovation.",
-      "votos": 4
+      "votos": 5
     },
     {
       "id": "2",
@@ -217,7 +224,7 @@
       "titulo": "Esmeraldas",
       "imagen": "https://sxntixgxs.github.io/FRONTEND/datosPrime/img/3.png",
       "texto": "Crudo Means Raw's 2020 album, raw and authentic",
-      "votos": 5
+      "votos": 6
     },
     {
       "id": "4",
