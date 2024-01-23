@@ -1,8 +1,15 @@
 //recibo la lista de compras
 
 function cuantoFalta(compras){
-    let numero = (compras.length)
-    texto = `Te faltan ${numero} compras para reclamar tu bono!`;
+    let numero = 10-(compras.length);
+    let texto = `Te faltan ${numero} compras para reclamar tu bono!`;
+    let mensaje = document.createElement("p")
+    mensaje.textContent=texto
+    let container = document.getElementById("consultarCC");
+    container.appendChild(mensaje)
+
+    
+
 }
 
 export function activarBono(compras){
